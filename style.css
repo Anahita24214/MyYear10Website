@@ -5,7 +5,7 @@ html {
     padding: 0;
     height: 100%;
     /* The Font Family- Really important!! */
-    font-family: Arial, sans-serif;
+    font-family: cursive;
     box-sizing: border-box;
 }
 
@@ -23,7 +23,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
     position: relative;
 }
@@ -36,10 +36,10 @@ img {
 
 /* nice big font on a banner style background */
 .topic-title{
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 2em;
     padding: 0.1em 3em;
-    background-color: rgb(159, 0, 0);
+    background-color: rgb(121, 2, 2);
 }
 
 /* Three column grid with a nice big gap */
@@ -55,16 +55,16 @@ img {
 
 /* Styling for the individual topic cards rounded edges background color and a drop shadow */
 .topic-card{
-    background-color: rgb(71, 71, 71);
+    background-color: rgb(206, 162, 162);
     color: white;
     padding: 1em;
-    border-radius: 0.5em;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 0.7em;
+    box-shadow: 20px 15px 15px rgba(88, 1, 1, 0.507);
 }
 
 /* Styling for the topic card titles */
 .topic-card-text{
-    font-size: 1.5em;
+    font-size: 1.7em;
     margin-bottom: 0.5em;
     /* center align text */
     text-align: center;
@@ -73,7 +73,7 @@ img {
 
 /* Styling for a footer section to take a bit of spcae at the bottom of the page */
 .footer{
-    background-color: rgb(71, 71, 71);
+    background-color: rgb(95, 0, 0);
     color: white;
     text-align: right;
     padding: 3em 3em;
